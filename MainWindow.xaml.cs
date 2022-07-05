@@ -53,7 +53,7 @@ namespace PartDetail
                 }
                 WebElement ImgEle = (WebElement)driver.FindElement(By.Id("ASPxImage1"));
                 string fileName1 = "provisional-" + PartN + "@" + DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss") + ".png";
-                driver.GetScreenshot().SaveAsFile("Scripts/PartsToPrint/" + fileName1);
+                driver.GetScreenshot().SaveAsFile("C:/Users/roshan.liu/Scripts/PartsToPrint/" + fileName1);
                 string fileName2 = PartN + "@" + DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss") + ".png";
 
                 string DetailText = " " + IDOSS.Text;
@@ -98,10 +98,10 @@ namespace PartDetail
                 PointF fLocation4 = new PointF(10f, 1740f);
                 PointF fLocation5 = new PointF(10f, 1820f);
 
-                string imgPath = "Scripts/PartsToPrint/" + fileName1;
+                string imgPath = "C:/Users/roshan.liu/Scripts/PartsToPrint/" + fileName1;
                 Bitmap bitmap = (Bitmap)Image.FromFile(imgPath);
 
-                string imgPath2 = "Scripts/PartsToPrint/" + fileName2;
+                string imgPath2 = "C:/Users/roshan.liu/Scripts/PartsToPrint/" + fileName2;
                 using (Graphics graphics = Graphics.FromImage(bitmap))
                 {
                     using (Font arialFont = new Font("Arial", 20))
@@ -174,7 +174,7 @@ namespace PartDetail
                 {
                     Qty = worksheet.Cells[iniRow, 2].Value2.ToString();
                 }
-                
+
                 var result = PrintPartMode1(Part, Job, Qty);
                 if (result.Item1 == false)
                 {

@@ -15,8 +15,8 @@ namespace PartDetail
     {
 
 
-
-        string outpath = "C:/Users/xygen/Documents/GitHub/";
+        //string outpath = "C:/Users/xygen/Documents/GitHub/";
+        string outpath = "C:/Users/roshan.liu/Scripts/DATA/PartsToPrint/";
         public MainWindow()
         {
             InitializeComponent();

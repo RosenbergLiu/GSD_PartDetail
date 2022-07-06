@@ -48,6 +48,10 @@
               "target": "Package",
               "version": "[3.13.3, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Selenium.Support": {
               "target": "Package",
               "version": "[4.1.1, )"
@@ -63,6 +67,10 @@
             "System.Management.Automation": {
               "target": "Package",
               "version": "[7.2.3, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.5, )"
             },
             "WebDriverManager": {
               "target": "Package",

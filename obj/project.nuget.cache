@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "rCGiQ28AChOObw7rz6o3jBtR+2EHA1Wu5zA0sBlTXh+fBR2PO3tBiB2higlDOh078XEPqRL3aGEkzc1WrYvEJQ==",
+  "dgSpecHash": "UbMp0CXPJYY+vXXV78Fet99hoahRVG8rncfTremvSvImJKYEZIJ/+TuxyrCxZwSx+mnpMq94oJqYFBPKajn/xg==",
   "success": true,
   "projectFilePath": "C:\\Users\\xygen\\Documents\\GitHub\\GSD_PartDetail\\PartDetail.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,8 @@
     "C:\\Users\\xygen\\.nuget\\packages\\system.security.permissions\\6.0.0\\system.security.permissions.6.0.0.nupkg.sha512",
     "C:\\Users\\xygen\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512",
     "C:\\Users\\xygen\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\xygen\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\xygen\\.nuget\\packages\\system.text.json\\6.0.5\\system.text.json.6.0.5.nupkg.sha512",
     "C:\\Users\\xygen\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\xygen\\.nuget\\packages\\webdrivermanager\\2.12.4\\webdrivermanager.2.12.4.nupkg.sha512"
   ],

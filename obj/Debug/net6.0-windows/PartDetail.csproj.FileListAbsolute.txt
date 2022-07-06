@@ -102,3 +102,4 @@ C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Debug\net6.0-windows\refint\P
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Debug\net6.0-windows\PartDetail.pdb
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Debug\net6.0-windows\PartDetail.genruntimeconfig.cache
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Debug\net6.0-windows\ref\PartDetail.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Debug\net6.0-windows\System.Text.Json.dll

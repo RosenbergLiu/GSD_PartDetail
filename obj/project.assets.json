@@ -2,11 +2,11 @@
   "version": 3,
   "targets": {
     "net6.0-windows7.0": {
-      "AngleSharp/0.16.1": {
+      "AngleSharp/0.17.1": {
         "type": "package",
         "dependencies": {
           "System.Buffers": "4.5.1",
-          "System.Text.Encoding.CodePages": "5.0.0"
+          "System.Text.Encoding.CodePages": "6.0.0"
         },
         "compile": {
           "lib/netstandard2.0/AngleSharp.dll": {}
@@ -256,7 +256,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.PowerShell.CoreCLR.Eventing/7.2.3": {
+      "Microsoft.PowerShell.CoreCLR.Eventing/7.2.5": {
         "type": "package",
         "dependencies": {
           "System.Diagnostics.EventLog": "6.0.0"
@@ -441,10 +441,10 @@
           "build/NUnit.props": {}
         }
       },
-      "Selenium.Support/4.1.1": {
+      "Selenium.Support/4.3.0": {
         "type": "package",
         "dependencies": {
-          "Selenium.WebDriver": "4.1.1"
+          "Selenium.WebDriver": "4.3.0"
         },
         "compile": {
           "lib/net5.0/WebDriver.Support.dll": {}
@@ -453,7 +453,7 @@
           "lib/net5.0/WebDriver.Support.dll": {}
         }
       },
-      "Selenium.WebDriver/4.1.1": {
+      "Selenium.WebDriver/4.3.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "12.0.3"
@@ -622,12 +622,12 @@
           }
         }
       },
-      "System.Management.Automation/7.2.3": {
+      "System.Management.Automation/7.2.5": {
         "type": "package",
         "dependencies": {
           "Microsoft.ApplicationInsights": "2.18.0",
           "Microsoft.Management.Infrastructure": "2.0.0",
-          "Microsoft.PowerShell.CoreCLR.Eventing": "7.2.3",
+          "Microsoft.PowerShell.CoreCLR.Eventing": "7.2.5",
           "Microsoft.PowerShell.Native": "7.2.0",
           "Microsoft.Win32.Registry.AccessControl": "6.0.0",
           "Newtonsoft.Json": "13.0.1",
@@ -636,7 +636,7 @@
           "System.Management": "6.0.0",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
           "System.Security.AccessControl": "6.0.0",
-          "System.Security.Cryptography.Pkcs": "6.0.0",
+          "System.Security.Cryptography.Pkcs": "6.0.1",
           "System.Security.Permissions": "6.0.0",
           "System.Text.Encoding.CodePages": "6.0.0"
         },
@@ -684,7 +684,7 @@
           }
         }
       },
-      "System.Security.Cryptography.Pkcs/6.0.0": {
+      "System.Security.Cryptography.Pkcs/6.0.1": {
         "type": "package",
         "dependencies": {
           "System.Formats.Asn1": "6.0.0"
@@ -835,10 +835,10 @@
           }
         }
       },
-      "WebDriverManager/2.12.4": {
+      "WebDriverManager/2.14.1": {
         "type": "package",
         "dependencies": {
-          "AngleSharp": "0.16.1",
+          "AngleSharp": "0.17.1",
           "Microsoft.Win32.Registry": "5.0.0",
           "SharpZipLib": "1.3.3"
         },
@@ -852,17 +852,15 @@
     }
   },
   "libraries": {
-    "AngleSharp/0.16.1": {
-      "sha512": "1k7Vbfmr5IUsGaR0QJwTe8XF9zacFUIoWxMgI4X/ipiyKxCWZJZoaG96fNEugL90iubvboRvE1IxuBPibET/Rg==",
+    "AngleSharp/0.17.1": {
+      "sha512": "5MPI4bbixlwxb0W/smOMeIR+QlxMy5/5jD+WnIAw4pBC+7AhLPe5bS3cLgQMJyvd6q0A48sG+uYOt/ep406GLA==",
       "type": "package",
-      "path": "anglesharp/0.16.1",
+      "path": "anglesharp/0.17.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "anglesharp.0.16.1.nupkg.sha512",
+        "anglesharp.0.17.1.nupkg.sha512",
         "anglesharp.nuspec",
-        "lib/net46/AngleSharp.dll",
-        "lib/net46/AngleSharp.xml",
         "lib/net461/AngleSharp.dll",
         "lib/net461/AngleSharp.xml",
         "lib/net472/AngleSharp.dll",
@@ -1015,17 +1013,17 @@
         "runtime.json"
       ]
     },
-    "Microsoft.PowerShell.CoreCLR.Eventing/7.2.3": {
-      "sha512": "P0JagYxxAEHg5knvooZrU907tEKmH6iGVfjxbK8LdYA7u2DuhIlYd/v8+x63XJnKr6sfVxr5gNAJoGHAf/nc5A==",
+    "Microsoft.PowerShell.CoreCLR.Eventing/7.2.5": {
+      "sha512": "+tdvqRm1aryRb+IXb+ilAExx71+3/GZOaOQ8CpnThun4ylxJXVvOIzURxBkF9DFtvNn5teu8Mv98Pt0NO1ymzw==",
       "type": "package",
-      "path": "microsoft.powershell.coreclr.eventing/7.2.3",
+      "path": "microsoft.powershell.coreclr.eventing/7.2.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Powershell_black_64.png",
         "_manifest/spdx_2.2/manifest.spdx.json",
         "_manifest/spdx_2.2/manifest.spdx.json.sha256",
-        "microsoft.powershell.coreclr.eventing.7.2.3.nupkg.sha512",
+        "microsoft.powershell.coreclr.eventing.7.2.5.nupkg.sha512",
         "microsoft.powershell.coreclr.eventing.nuspec",
         "ref/net6.0/System.Management.Automation.dll",
         "ref/net6.0/System.Management.Automation.xml",
@@ -1345,10 +1343,10 @@
         "nunit.nuspec"
       ]
     },
-    "Selenium.Support/4.1.1": {
-      "sha512": "jxvHv+0KmovNeqBuWF0eAGdIt6MLCwdyZB4R569nppEZyityqhwmT2YXEXtGeqBCviGT0pfAhy1lyM4T5gaBIQ==",
+    "Selenium.Support/4.3.0": {
+      "sha512": "78f5qcda5YNj362T1Iuw1yRVY8lz5I8podvLLghLl87qMeNBpLNs9dJDKmG7TsIUC0ZalxL35pe1pGBVZU6dLA==",
       "type": "package",
-      "path": "selenium.support/4.1.1",
+      "path": "selenium.support/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1360,14 +1358,14 @@
         "lib/net5.0/WebDriver.Support.dll",
         "lib/netstandard2.0/WebDriver.Support.dll",
         "lib/netstandard2.1/WebDriver.Support.dll",
-        "selenium.support.4.1.1.nupkg.sha512",
+        "selenium.support.4.3.0.nupkg.sha512",
         "selenium.support.nuspec"
       ]
     },
-    "Selenium.WebDriver/4.1.1": {
-      "sha512": "lUPsSZMoIcDxB5tlppSPUUTMsaZovuUv/rXyYlroM0L3kl32cedOWbZ4m/hbJe9f24JlOqkPG8GX4gS35S+vSw==",
+    "Selenium.WebDriver/4.3.0": {
+      "sha512": "dDRbNrpzmII+ZnPLJF7ka2nygR/jnY0BfIl2rsyp1TJXQmr2ayv9tzq1ZBwqwRc1LkHC5zFAi1X3yboFWp0j+Q==",
       "type": "package",
-      "path": "selenium.webdriver/4.1.1",
+      "path": "selenium.webdriver/4.3.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1379,7 +1377,7 @@
         "lib/net5.0/WebDriver.dll",
         "lib/netstandard2.0/WebDriver.dll",
         "lib/netstandard2.1/WebDriver.dll",
-        "selenium.webdriver.4.1.1.nupkg.sha512",
+        "selenium.webdriver.4.3.0.nupkg.sha512",
         "selenium.webdriver.nuspec"
       ]
     },
@@ -1660,10 +1658,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Management.Automation/7.2.3": {
-      "sha512": "u9r3XlPM7g5m+hRsVR27KRoMHxfEMz4+r5bDqPh7BDhIe9qEw1h4uw4QCzCAnqlgokRBu8OCL1/sjhGfY00wsA==",
+    "System.Management.Automation/7.2.5": {
+      "sha512": "EmR8uInKkPrXBkI4OFAip7p1T5wB1nV/fHMTOhWYfSvMsu6OGFkSV9sE7qWJbm0Hmk0x/v/7+OurRuAxIaFu8Q==",
       "type": "package",
-      "path": "system.management.automation/7.2.3",
+      "path": "system.management.automation/7.2.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1674,7 +1672,7 @@
         "ref/net6.0/System.Management.Automation.xml",
         "runtimes/unix/lib/net6.0/System.Management.Automation.dll",
         "runtimes/win/lib/net6.0/System.Management.Automation.dll",
-        "system.management.automation.7.2.3.nupkg.sha512",
+        "system.management.automation.7.2.5.nupkg.sha512",
         "system.management.automation.nuspec"
       ]
     },
@@ -1732,10 +1730,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Security.Cryptography.Pkcs/6.0.0": {
-      "sha512": "elM3x+xSRhzQysiqo85SbidJJ2YbZlnvmh+53TuSZHsD7dNuuEWser+9EFtY+rYupBwkq2avc6ZCO3/6qACgmg==",
+    "System.Security.Cryptography.Pkcs/6.0.1": {
+      "sha512": "ynmbW2GjIGg9K1wXmVIRs4IlyDolf0JXNpzFQ8JCVgwM+myUC2JeUggl2PwQig2PNVMegKmN1aAx7WPQ8tI3vA==",
       "type": "package",
-      "path": "system.security.cryptography.pkcs/6.0.0",
+      "path": "system.security.cryptography.pkcs/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1764,7 +1762,7 @@
         "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.Pkcs.xml",
         "runtimes/win/lib/netstandard2.1/System.Security.Cryptography.Pkcs.dll",
         "runtimes/win/lib/netstandard2.1/System.Security.Cryptography.Pkcs.xml",
-        "system.security.cryptography.pkcs.6.0.0.nupkg.sha512",
+        "system.security.cryptography.pkcs.6.0.1.nupkg.sha512",
         "system.security.cryptography.pkcs.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2031,18 +2029,18 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "WebDriverManager/2.12.4": {
-      "sha512": "1tSMXGW11oQfSlsgqJ6I8BAr+8YW12qxBbTKx+cOpg9gSlgRXlMAV3lYwsAdRECPMQu4d9WM9BCw9US690Do0A==",
+    "WebDriverManager/2.14.1": {
+      "sha512": "3vH5q5nJ1rv9U7D7UExxH0/ddDviL/WBROhBzTMPMcnDLlRg31X8bHXcmSm1cWhFrkVOBx/m6pmf8kvV7Z21JA==",
       "type": "package",
-      "path": "webdrivermanager/2.12.4",
+      "path": "webdrivermanager/2.14.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "lib/net46/WebDriverManager.dll",
+        "lib/net461/WebDriverManager.dll",
         "lib/netstandard2.0/WebDriverManager.dll",
         "lib/netstandard2.1/WebDriverManager.dll",
-        "webdrivermanager.2.12.4.nupkg.sha512",
+        "webdrivermanager.2.14.1.nupkg.sha512",
         "webdrivermanager.nuspec"
       ]
     }
@@ -2050,13 +2048,12 @@
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
       "NUnit >= 3.13.3",
-      "Newtonsoft.Json >= 13.0.1",
-      "Selenium.Support >= 4.1.1",
-      "Selenium.WebDriver >= 4.1.1",
+      "Selenium.Support >= 4.3.0",
+      "Selenium.WebDriver >= 4.3.0",
       "System.Drawing.Common >= 6.0.0",
-      "System.Management.Automation >= 7.2.3",
+      "System.Management.Automation >= 7.2.5",
       "System.Text.Json >= 6.0.5",
-      "WebDriverManager >= 2.12.4"
+      "WebDriverManager >= 2.14.1"
     ]
   },
   "packageFolders": {
@@ -2107,17 +2104,13 @@
             "target": "Package",
             "version": "[3.13.3, )"
           },
-          "Newtonsoft.Json": {
-            "target": "Package",
-            "version": "[13.0.1, )"
-          },
           "Selenium.Support": {
             "target": "Package",
-            "version": "[4.1.1, )"
+            "version": "[4.3.0, )"
           },
           "Selenium.WebDriver": {
             "target": "Package",
-            "version": "[4.1.1, )"
+            "version": "[4.3.0, )"
           },
           "System.Drawing.Common": {
             "target": "Package",
@@ -2125,7 +2118,7 @@
           },
           "System.Management.Automation": {
             "target": "Package",
-            "version": "[7.2.3, )"
+            "version": "[7.2.5, )"
           },
           "System.Text.Json": {
             "target": "Package",
@@ -2133,7 +2126,7 @@
           },
           "WebDriverManager": {
             "target": "Package",
-            "version": "[2.12.4, )"
+            "version": "[2.14.1, )"
           }
         },
         "imports": [

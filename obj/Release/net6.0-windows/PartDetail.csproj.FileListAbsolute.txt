@@ -206,3 +206,6 @@ C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Release\net6.0-windows\refint
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Release\net6.0-windows\PartDetail.pdb
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Release\net6.0-windows\PartDetail.genruntimeconfig.cache
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Release\net6.0-windows\ref\PartDetail.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\System.Text.Json.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll

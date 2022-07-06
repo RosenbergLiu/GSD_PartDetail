@@ -1,0 +1,9 @@
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\1\PartDetail.pdb
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\1\D3DCompiler_47_cor3.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\1\PenImc_cor3.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\1\PresentationNative_cor3.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\1\vcruntime140_cor3.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\1\wpfgfx_cor3.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\1\PowerShell.Core.Instrumentation.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\1\pwrshplugin.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\1\PartDetail.exe

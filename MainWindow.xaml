@@ -7,18 +7,19 @@
         mc:Ignorable="d"
         Title="Part Detail Generator" Height="500" Width="300">
     <Grid>
-        <Button x:Name="GenerateOneNote" Content="Generate One Note" HorizontalAlignment="Left" Margin="140,101,0,0" VerticalAlignment="Top" Width="125" Height="20" FontSize="10" Click="GenerateOneNote_Click"/>
-        <TextBox x:Name="PartNumber" HorizontalAlignment="Left" Margin="34,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" Height="20"/>
+        <Button x:Name="GenerateOneNote" Content="Generate One Note" HorizontalAlignment="Left" Margin="138,155,0,0" VerticalAlignment="Top" Width="125" Height="20" FontSize="10" Click="GenerateOneNote_Click"/>
+        <TextBox x:Name="PartNumber" HorizontalAlignment="Left" Margin="32,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" Height="20"/>
         <TextBlock x:Name="Title" HorizontalAlignment="Center" Margin="0,23,0,0" TextWrapping="Wrap" Text="Part Detail Generator" VerticalAlignment="Top" FontSize="18"/>
-        <Button x:Name="GenerateNotes" Content="Generate Notes" HorizontalAlignment="Center" Margin="0,332,0,0" VerticalAlignment="Top" Width="100" Height="20" FontSize="10" Click="btnGenerateNotes_Click" RenderTransformOrigin="0.528,0.092"/>
-        <Button Content="Select an Excel" HorizontalAlignment="Center" Margin="0,242,0,0" VerticalAlignment="Top" Width="100" Height="20" Click="btnOpenFile_Click" FontSize="10"/>
-        <TextBlock x:Name="ExcelPath" HorizontalAlignment="Center" Margin="0,289,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" TextAlignment="Center" Text="Select an Excel" FontSize="8"/>
-        <TextBox x:Name="IDOSS" HorizontalAlignment="Left" Margin="140,67,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="20"/>
-        <TextBox x:Name="QTY" HorizontalAlignment="Left" Margin="34,101,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="80" Height="20"/>
-        <Label x:Name="Label1" Content="PartNumber" HorizontalAlignment="Left" Margin="34,52,0,0" VerticalAlignment="Top" FontSize="6" Height="20"/>
-        <Label x:Name="Label2" Content="JobNumber" HorizontalAlignment="Left" Margin="140,52,0,0" VerticalAlignment="Top" FontSize="6" Height="20"/>
-        <Label x:Name="Label3" Content="Quantity" HorizontalAlignment="Left" Margin="34,87,0,0" VerticalAlignment="Top" FontSize="6" Height="20"/>
-        <TextBlock HorizontalAlignment="Center" Margin="0,431,0,0" TextWrapping="Wrap" Text="Ver. 2.0" VerticalAlignment="Top"/>
+        <Button x:Name="GenerateNotes" Content="Generate Notes" HorizontalAlignment="Center" Margin="0,369,0,0" VerticalAlignment="Top" Width="100" Height="20" FontSize="10" Click="btnGenerateNotes_Click" RenderTransformOrigin="0.528,0.092"/>
+        <Button Content="Select an Excel" HorizontalAlignment="Center" Margin="0,279,0,0" VerticalAlignment="Top" Width="100" Height="20" Click="btnOpenFile_Click" FontSize="10"/>
+        <TextBlock x:Name="ExcelPath" HorizontalAlignment="Center" Margin="0,326,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="167" TextAlignment="Center" Text="Select an Excel" FontSize="10"/>
+        <TextBox x:Name="IDOSS" HorizontalAlignment="Left" Margin="138,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="125" Height="20"/>
+        <TextBox x:Name="QTY" HorizontalAlignment="Left" Margin="32,155,0,0" TextWrapping="Wrap" Text="1" VerticalAlignment="Top" Width="80" Height="20"/>
+        <Label x:Name="Label1" Content="PartNumber" HorizontalAlignment="Left" Margin="32,79,0,0" VerticalAlignment="Top" FontSize="10" Height="25" Width="60"/>
+        <Label x:Name="Label2" Content="JobNumber" HorizontalAlignment="Left" Margin="138,79,0,0" VerticalAlignment="Top" FontSize="10" Height="25" Width="60"/>
+        <Label x:Name="Label3" Content="Quantity" HorizontalAlignment="Left" Margin="33,130,0,0" VerticalAlignment="Top" FontSize="10" Height="25" Width="60"/>
+        <TextBlock x:Name="Version" HorizontalAlignment="Center" Margin="0,431,0,0" TextWrapping="Wrap" Text="Ver. 3.0" VerticalAlignment="Top"/>
+        <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,226,0,0" Stroke="Black" VerticalAlignment="Top" Width="300"/>
 
     </Grid>
 </Window>

@@ -48,17 +48,13 @@
               "target": "Package",
               "version": "[3.13.3, )"
             },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
-            },
             "Selenium.Support": {
               "target": "Package",
-              "version": "[4.1.1, )"
+              "version": "[4.3.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.1.1, )"
+              "version": "[4.3.0, )"
             },
             "System.Drawing.Common": {
               "target": "Package",
@@ -66,7 +62,7 @@
             },
             "System.Management.Automation": {
               "target": "Package",
-              "version": "[7.2.3, )"
+              "version": "[7.2.5, )"
             },
             "System.Text.Json": {
               "target": "Package",
@@ -74,7 +70,7 @@
             },
             "WebDriverManager": {
               "target": "Package",
-              "version": "[2.12.4, )"
+              "version": "[2.14.1, )"
             }
           },
           "imports": [

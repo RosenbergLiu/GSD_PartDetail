@@ -50,11 +50,11 @@
             },
             "Selenium.Support": {
               "target": "Package",
-              "version": "[4.1.1, )"
+              "version": "[4.3.0, )"
             },
             "Selenium.WebDriver": {
               "target": "Package",
-              "version": "[4.1.1, )"
+              "version": "[4.3.0, )"
             },
             "System.Drawing.Common": {
               "target": "Package",
@@ -62,11 +62,15 @@
             },
             "System.Management.Automation": {
               "target": "Package",
-              "version": "[7.2.3, )"
+              "version": "[7.2.5, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.5, )"
             },
             "WebDriverManager": {
               "target": "Package",
-              "version": "[2.12.4, )"
+              "version": "[2.14.1, )"
             }
           },
           "imports": [

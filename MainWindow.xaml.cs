@@ -53,7 +53,11 @@ namespace PartDetail
                 }
                 WebElement ImgEle = (WebElement)driver.FindElement(By.Id("ASPxImage1"));
                 string fileName1 = "provisional-" + PartN + "@" + DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss") + ".png";
+<<<<<<< HEAD
                 driver.GetScreenshot().SaveAsFile("C:/Users/roshan.liu/Scripts/PartsToPrint/" + fileName1);
+=======
+                driver.GetScreenshot().SaveAsFile("C:/Users/xygen/OneDrive - Gorenje d.o.o/PartsToPrint/" + fileName1);
+>>>>>>> parent of dcc5b6f (Update MainWindow.xaml.cs)
                 string fileName2 = PartN + "@" + DateTime.Now.ToString("yyyy-MM-dd HH-mm-ss") + ".png";
 
                 string DetailText = " " + IDOSS.Text;
@@ -98,10 +102,17 @@ namespace PartDetail
                 PointF fLocation4 = new PointF(10f, 1740f);
                 PointF fLocation5 = new PointF(10f, 1820f);
 
+<<<<<<< HEAD
                 string imgPath = "C:/Users/roshan.liu/Scripts/PartsToPrint/" + fileName1;
                 Bitmap bitmap = (Bitmap)Image.FromFile(imgPath);
 
                 string imgPath2 = "C:/Users/roshan.liu/Scripts/PartsToPrint/" + fileName2;
+=======
+                string imgPath = "C:/Users/xygen/OneDrive - Gorenje d.o.o/PartsToPrint/" + fileName1;
+                Bitmap bitmap = (Bitmap)Image.FromFile(imgPath);
+
+                string imgPath2 = "C:/Users/xygen/OneDrive - Gorenje d.o.o/PartsToPrint/" + fileName2;
+>>>>>>> parent of dcc5b6f (Update MainWindow.xaml.cs)
                 using (Graphics graphics = Graphics.FromImage(bitmap))
                 {
                     using (Font arialFont = new Font("Arial", 20))

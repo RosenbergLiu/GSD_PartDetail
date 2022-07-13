@@ -105,3 +105,5 @@ C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Debug\net6.0-windows\ref\Part
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Debug\net6.0-windows\System.Text.Json.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Debug\net6.0-windows\PartDetailConfig.g.cs
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Debug\net6.0-windows\PartDetailConfig.baml

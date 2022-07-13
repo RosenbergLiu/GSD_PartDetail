@@ -1,0 +1,17 @@
+﻿<Window x:Class="PartDetail.PartDetailConfig"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PartDetail"
+        mc:Ignorable="d"
+        Title="PartDetailConfig" Height="450" Width="450">
+    <Grid>
+        <TextBox x:Name="SAGusername" HorizontalAlignment="Center" Margin="0,107,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="usernameChanged"/>
+        <TextBox x:Name="SAGpassword" HorizontalAlignment="Center" Margin="0,175,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="passwordChanged"/>
+        <Button x:Name="btnApply" Content="Apply" HorizontalAlignment="Left" Margin="70,338,0,0" VerticalAlignment="Top" Height="23" Width="137" Click="onApplyClicked"/>
+        <Button x:Name="btnClose" Content="Close" HorizontalAlignment="Right" Margin="0,338,70,0" VerticalAlignment="Top" Height="23" Width="137" Click="onCloseClicked"/>
+        <Label Content="Username SAG/GSD" HorizontalAlignment="Left" Margin="165,76,0,0" VerticalAlignment="Top"/>
+        <Label Content="Password SAG/GSD" HorizontalAlignment="Left" Margin="165,144,0,0" VerticalAlignment="Top"/>
+    </Grid>
+</Window>

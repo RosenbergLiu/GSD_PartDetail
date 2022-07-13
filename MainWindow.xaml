@@ -20,6 +20,7 @@
         <Label x:Name="Label3" Content="Quantity" HorizontalAlignment="Left" Margin="33,130,0,0" VerticalAlignment="Top" FontSize="10" Height="25" Width="60"/>
         <TextBlock x:Name="Version" HorizontalAlignment="Center" Margin="0,431,0,0" TextWrapping="Wrap" Text="Ver. 3.0" VerticalAlignment="Top"/>
         <Rectangle HorizontalAlignment="Center" Height="1" Margin="0,226,0,0" Stroke="Black" VerticalAlignment="Top" Width="300"/>
+        <Button x:Name="Config" Content="Settings" HorizontalAlignment="Left" Margin="49,432,0,0" VerticalAlignment="Top" Click="onConfigClicked"/>
 
     </Grid>
 </Window>

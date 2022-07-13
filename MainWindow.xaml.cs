@@ -27,9 +27,9 @@ namespace PartDetail
         {
             ChromeDriver driver = new ChromeDriver();
             driver.Navigate().GoToUrl(@"https://partners.gorenje.com/GSD/");
-            driver.FindElement(By.Id("tbUsr")).SendKeys("liuro_sh");
+            driver.FindElement(By.Id("tbUsr")).SendKeys(Properties.Settings.Default.USERNAME);
             driver.FindElement(By.Id("tbPwd")).Clear();
-            driver.FindElement(By.Id("tbPwd")).SendKeys("gorenje1");
+            driver.FindElement(By.Id("tbPwd")).SendKeys(Properties.Settings.Default.PASSWORD);
             driver.FindElement(By.Id("btnLogIn")).Click();
             driver.Navigate().GoToUrl(@"https://partners.gorenje.com/GSD/gsd_iskanje_rd.aspx");
             driver.FindElement(By.Id("ContentPlaceHolder1_tbRD")).Clear();
@@ -63,8 +63,8 @@ namespace PartDetail
                 driver.Quit();
                 ChromeDriver driver2 = new ChromeDriver();
                 driver2.Navigate().GoToUrl(@"https://partners.gorenje.com/sagCC/Login.aspx");
-                driver2.FindElement(By.Id("usr")).SendKeys("liuro_sh");
-                driver2.FindElement(By.Id("pwd")).SendKeys("gorenje1");
+                driver2.FindElement(By.Id("usr")).SendKeys(Properties.Settings.Default.USERNAME);
+                driver2.FindElement(By.Id("pwd")).SendKeys(Properties.Settings.Default.PASSWORD);
                 driver2.FindElement(By.Id("btnPrijava")).Click();
                 driver2.FindElement(By.Id("ctl00_tbOss")).SendKeys(JobN);
                 originalWindow = driver2.CurrentWindowHandle;
@@ -92,10 +92,10 @@ namespace PartDetail
                 string ArtIndex = "ART: " + ART + "/" + Index;
                 string Quantity = "x " + Qty;
 
-                PointF fLocation1 = new PointF(80f, 90f);
-                PointF fLocation2 = new PointF(80f, 120f);
-                PointF fLocation3 = new PointF(340f, 120f);
-                PointF fLocation4 = new PointF(600f, 120f);
+                PointF fLocation1 = new PointF(160f, 90f);
+                PointF fLocation2 = new PointF(160f, 120f);
+                PointF fLocation3 = new PointF(420f, 120f);
+                PointF fLocation4 = new PointF(680f, 120f);
                 PointF fLocation5 = new PointF(60f, 120f);
 
                 string imgPath = outpath + fileName1;
@@ -193,6 +193,11 @@ namespace PartDetail
             excel.Quit();
         }
 
-
+        private void onConfigClicked(object sender, RoutedEventArgs e)
+        {
+            PartDetailConfig partDetailConfig = new PartDetailConfig();
+            partDetailConfig.Owner = this;
+            partDetailConfig.Show();
+        }
     }
 }

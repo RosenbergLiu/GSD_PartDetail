@@ -94,7 +94,7 @@ namespace PartDetail
 
                 PointF fLocation1 = new PointF(80f, 90f);
                 PointF fLocation2 = new PointF(80f, 120f);
-                PointF fLocation3 = new PointF(3400f, 120f);
+                PointF fLocation3 = new PointF(340f, 120f);
                 PointF fLocation4 = new PointF(600f, 120f);
                 PointF fLocation5 = new PointF(60f, 120f);
 

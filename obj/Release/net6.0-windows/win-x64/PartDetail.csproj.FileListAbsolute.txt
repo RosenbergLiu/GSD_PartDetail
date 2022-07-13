@@ -820,7 +820,6 @@ C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\win-x6
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\win-x64\hostfxr.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\win-x64\hostpolicy.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\win-x64\mscordaccore.dll
-C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\win-x64\mscordaccore_amd64_amd64_6.0.622.26707.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\win-x64\mscordbi.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\win-x64\mscorrc.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\win-x64\msquic.dll
@@ -1070,3 +1069,4 @@ C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Release\net6.0-windows\win-x6
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Release\net6.0-windows\win-x64\PartDetail.pdb
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Release\net6.0-windows\win-x64\PartDetail.genruntimeconfig.cache
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Release\net6.0-windows\win-x64\ref\PartDetail.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\net6.0-windows\win-x64\mscordaccore_amd64_amd64_6.0.722.32202.dll

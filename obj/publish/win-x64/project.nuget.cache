@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "W7Fg26N4ugKQImzo7BI2rRSK3emJeRQVLmz0zGKzaVftwIGflGkhradeiojRt/zTwjNcHbNn/ZHr9xubbciuWw==",
+  "dgSpecHash": "yzX/I1KIqu6Dff7sjrjK+an9/vO+zVNXQW0UvCta5Br3gYDfdz7rHXMWStbhpyfGTuX89O96iObLxlXU1yisVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\xygen\\Documents\\GitHub\\GSD_PartDetail\\PartDetail.csproj",
   "expectedPackageFiles": [
@@ -42,10 +42,10 @@
     "C:\\Users\\xygen\\.nuget\\packages\\system.text.json\\6.0.5\\system.text.json.6.0.5.nupkg.sha512",
     "C:\\Users\\xygen\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\xygen\\.nuget\\packages\\webdrivermanager\\2.14.1\\webdrivermanager.2.14.1.nupkg.sha512",
-    "C:\\Users\\xygen\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.6\\microsoft.netcore.app.runtime.win-x64.6.0.6.nupkg.sha512",
-    "C:\\Users\\xygen\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.6\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.6.nupkg.sha512",
-    "C:\\Users\\xygen\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.6\\microsoft.aspnetcore.app.runtime.win-x64.6.0.6.nupkg.sha512",
-    "C:\\Users\\xygen\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.6\\microsoft.netcore.app.crossgen2.win-x64.6.0.6.nupkg.sha512"
+    "C:\\Users\\xygen\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\6.0.7\\microsoft.netcore.app.runtime.win-x64.6.0.7.nupkg.sha512",
+    "C:\\Users\\xygen\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\6.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.6.0.7.nupkg.sha512",
+    "C:\\Users\\xygen\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\6.0.7\\microsoft.aspnetcore.app.runtime.win-x64.6.0.7.nupkg.sha512",
+    "C:\\Users\\xygen\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\6.0.7\\microsoft.netcore.app.crossgen2.win-x64.6.0.7.nupkg.sha512"
   ],
   "logs": []
 }

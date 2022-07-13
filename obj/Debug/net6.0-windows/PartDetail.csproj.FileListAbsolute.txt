@@ -103,3 +103,5 @@ C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Debug\net6.0-windows\PartDeta
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Debug\net6.0-windows\PartDetail.genruntimeconfig.cache
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\obj\Debug\net6.0-windows\ref\PartDetail.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Debug\net6.0-windows\System.Text.Json.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Debug\net6.0-windows\System.Security.Cryptography.Pkcs.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Security.Cryptography.Pkcs.dll

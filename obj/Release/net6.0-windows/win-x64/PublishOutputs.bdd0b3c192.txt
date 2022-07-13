@@ -54,7 +54,7 @@ C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\3.0\dbgshim.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\3.0\hostfxr.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\3.0\hostpolicy.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\3.0\mscordaccore.dll
-C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\3.0\mscordaccore_amd64_amd64_6.0.622.26707.dll
+C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\3.0\mscordaccore_amd64_amd64_6.0.722.32202.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\3.0\mscordbi.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\3.0\mscorrc.dll
 C:\Users\xygen\Documents\GitHub\GSD_PartDetail\bin\Release\3.0\msquic.dll

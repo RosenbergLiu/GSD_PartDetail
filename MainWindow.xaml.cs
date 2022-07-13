@@ -92,10 +92,10 @@ namespace PartDetail
                 string ArtIndex = "ART: " + ART + "/" + Index;
                 string Quantity = "x " + Qty;
 
-                PointF fLocation1 = new PointF(60f, 95f);
-                PointF fLocation2 = new PointF(60f, 115f);
-                PointF fLocation3 = new PointF(320f, 115f);
-                PointF fLocation4 = new PointF(580f, 115f);
+                PointF fLocation1 = new PointF(80f, 90f);
+                PointF fLocation2 = new PointF(80f, 120f);
+                PointF fLocation3 = new PointF(3400f, 120f);
+                PointF fLocation4 = new PointF(600f, 120f);
                 PointF fLocation5 = new PointF(60f, 120f);
 
                 string imgPath = outpath + fileName1;

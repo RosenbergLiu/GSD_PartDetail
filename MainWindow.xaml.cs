@@ -26,7 +26,6 @@ namespace PartDetail
         public (Boolean, string) PrintPartMode1(string PartN, string JobN, string Qty)
         {
             ChromeDriver driver = new ChromeDriver();
-            driver.Manage().Window.FullScreen();
             driver.Navigate().GoToUrl(@"https://partners.gorenje.com/GSD/");
             driver.FindElement(By.Id("tbUsr")).SendKeys("liuro_sh");
             driver.FindElement(By.Id("tbPwd")).Clear();
@@ -93,11 +92,11 @@ namespace PartDetail
                 string ArtIndex = "ART: " + ART + "/" + Index;
                 string Quantity = "x " + Qty;
 
-                PointF fLocation1 = new PointF(10f, 500f);
-                PointF fLocation2 = new PointF(10f, 580f);
-                PointF fLocation3 = new PointF(10f, 660f);
-                PointF fLocation4 = new PointF(10f, 740f);
-                PointF fLocation5 = new PointF(10f, 820f);
+                PointF fLocation1 = new PointF(60f, 100f);
+                PointF fLocation2 = new PointF(60f, 110f);
+                PointF fLocation3 = new PointF(260f, 110f);
+                PointF fLocation4 = new PointF(60f, 110f);
+                PointF fLocation5 = new PointF(60f, 120f);
 
                 string imgPath = outpath + fileName1;
                 Bitmap bitmap = (Bitmap)Image.FromFile(imgPath);
